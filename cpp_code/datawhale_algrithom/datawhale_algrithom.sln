@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "datawhale_algrithom", "datawhale_algrithom\datawhale_algrithom.vcxproj", "{F550D831-4224-47AB-B45F-D0C5FF7980D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lession_1", "lession_1\lession_1.vcxproj", "{C91C8ABA-C739-4C0F-8143-901CA0B24909}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F550D831-4224-47AB-B45F-D0C5FF7980D0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F550D831-4224-47AB-B45F-D0C5FF7980D0}.Debug|Win32.Build.0 = Debug|Win32
+		{F550D831-4224-47AB-B45F-D0C5FF7980D0}.Release|Win32.ActiveCfg = Release|Win32
+		{F550D831-4224-47AB-B45F-D0C5FF7980D0}.Release|Win32.Build.0 = Release|Win32
+		{C91C8ABA-C739-4C0F-8143-901CA0B24909}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C91C8ABA-C739-4C0F-8143-901CA0B24909}.Debug|Win32.Build.0 = Debug|Win32
+		{C91C8ABA-C739-4C0F-8143-901CA0B24909}.Release|Win32.ActiveCfg = Release|Win32
+		{C91C8ABA-C739-4C0F-8143-901CA0B24909}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
