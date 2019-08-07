@@ -40,14 +40,10 @@ bool is_happy_2(int number){
 		{
 			sum = sum + (number % 10)*(number % 10);
 			number /= 10;
-
 		}
 		number = sum;
 	}
-
 	return number == 1;
-
-
 }
 
 //
