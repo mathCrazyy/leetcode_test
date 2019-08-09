@@ -105,28 +105,28 @@ vector<vector<int>> get_perm(vector<int> group,int special_one_index,vector<vect
 	}
 
 }
-
-int main(){
-	cout << get_pbnqs(1) << endl;
-	cout << get_pbnqs(2) << endl;
-	cout << get_pbnqs(3) << endl;
-	cout << get_pbnqs(4) << endl;
-	cout << get_pbnqs(5) << endl;
-
-	for (int i = 3; i < 10; i++){
-		cout << i << "µÄ½×³Ë£º " << get_factorial_number(i) << endl;
-	}
-	vector<int> group;
-	group.push_back(1);
-	group.push_back(2);
-	group.push_back(3);
-	vector<vector<int>> all_group;
-	int value = -1;
-	//get_permutation_wrong(group, value, all_group);
-	get_perm(group, 0, all_group);
-	system("pause");
-	return 0;
-
-}
-
-
+//
+//int main(){
+//	cout << get_pbnqs(1) << endl;
+//	cout << get_pbnqs(2) << endl;
+//	cout << get_pbnqs(3) << endl;
+//	cout << get_pbnqs(4) << endl;
+//	cout << get_pbnqs(5) << endl;
+//
+//	for (int i = 3; i < 10; i++){
+//		cout << i << "µÄ½×³Ë£º " << get_factorial_number(i) << endl;
+//	}
+//	vector<int> group;
+//	group.push_back(1);
+//	group.push_back(2);
+//	group.push_back(3);
+//	vector<vector<int>> all_group;
+//	int value = -1;
+//	//get_permutation_wrong(group, value, all_group);
+//	get_perm(group, 0, all_group);
+//	system("pause");
+//	return 0;
+//
+//}
+//
+//
