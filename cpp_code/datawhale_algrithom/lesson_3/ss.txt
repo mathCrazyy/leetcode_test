@@ -1,0 +1,6 @@
+#include<iostream>using namespace std;void insert_x(int arr[], int n){	int key = arr[n];	int i = n;	while (arr[i-1]>key)	{		arr[i - 1] = key;		i--;		if (i == 0){			break;		}	}	arr[i] = key;}int main(){	cout << "x" << endl;	system("pause");	return 0;}/*int main(){int arr[9] = { 4, 2, 1, 3, 6, 7,5, 8, 9 };insert(arr, 9);for (int i = 0; i < 9; i++){cout << arr[i] << " ";}cout << endl;system("pause");return 0;}*/
+
+/*
+插入排序,特喵的...刚刚对递归有感觉..没有用递归....
+https://www.bilibili.com/video/av9830014?from=search&seid=12861358991018422728 ss
+*/
