@@ -78,10 +78,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="binary_find.cpp" />
     <ClCompile Include="insert_sort.cpp" />
     <ClCompile Include="merge_sort.cpp" />
     <ClCompile Include="merge_sort_copy.cpp" />
     <ClCompile Include="quick_sort.cpp" />
+    <ClCompile Include="sqrt_number.cpp" />
+    <ClCompile Include="top_k.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

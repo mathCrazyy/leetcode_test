@@ -34,15 +34,15 @@ void insert_sort(int arr[],int n){//其实可以写成for循环，强行写成了迭代...
 	}
 
 }
-
-int main(){
-	cout << "endl" << endl;
-	int arr[9] = { 9, 8, 6, 3, 1, 2, 4, 5, 7 };
-	//insert_x(arr,8);
-	insert_sort(arr, 9);
-	traverse(arr, 9);
-	
-	cout << endl;
-	system("pause");
-	return 0;
-}
+//
+//int main(){
+//	cout << "endl" << endl;
+//	int arr[9] = { 9, 8, 6, 3, 1, 2, 4, 5, 7 };
+//	//insert_x(arr,8);
+//	insert_sort(arr, 9);
+//	traverse(arr, 9);
+//	
+//	cout << endl;
+//	system("pause");
+//	return 0;
+//}

@@ -1,16 +1,20 @@
-﻿Build started 2019/8/11 23:32:17.
+﻿Build started 2019/8/13 0:42:40.
      1>Project "E:\study_series\leetcode_test\cpp_code\datawhale_algrithom\lesson_3\lesson_3.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Love\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt insert_sort.cpp
-         insert_sort.cpp
+         C:\Love\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt sqrt_number.cpp
+         sqrt_number.cpp
+     1>e:\study_series\leetcode_test\cpp_code\datawhale_algrithom\lesson_3\sqrt_number.cpp(23): warning C4715: 'sqrt_1' : not all control paths return a value
        Link:
-         C:\Love\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\study_series\leetcode_test\cpp_code\datawhale_algrithom\Debug\lesson_3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\study_series\leetcode_test\cpp_code\datawhale_algrithom\Debug\lesson_3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\study_series\leetcode_test\cpp_code\datawhale_algrithom\Debug\lesson_3.lib" /MACHINE:X86 Debug\insert_sort.obj
+         C:\Love\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\study_series\leetcode_test\cpp_code\datawhale_algrithom\Debug\lesson_3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\study_series\leetcode_test\cpp_code\datawhale_algrithom\Debug\lesson_3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\study_series\leetcode_test\cpp_code\datawhale_algrithom\Debug\lesson_3.lib" /MACHINE:X86 Debug\binary_find.obj
+         Debug\insert_sort.obj
          Debug\merge_sort.obj
          Debug\merge_sort_copy.obj
          Debug\quick_sort.obj
+         Debug\sqrt_number.obj
+         Debug\top_k.obj
          lesson_3.vcxproj -> E:\study_series\leetcode_test\cpp_code\datawhale_algrithom\Debug\lesson_3.exe
      1>Done Building Project "E:\study_series\leetcode_test\cpp_code\datawhale_algrithom\lesson_3\lesson_3.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.02
+Time Elapsed 00:00:00.96
