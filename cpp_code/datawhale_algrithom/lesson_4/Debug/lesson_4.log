@@ -1,0 +1,16 @@
+﻿Build started 2019/8/16 0:34:26.
+     1>Project "E:\study_series\leetcode_test\cpp_code\datawhale_algrithom\lesson_4\lesson_4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Love\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt hash_map.cpp
+         hash_map.cpp
+     1>e:\study_series\leetcode_test\cpp_code\datawhale_algrithom\lesson_4\hash_map.cpp(86): warning C4156: deletion of an array expression without using the array form of 'delete'; array form substituted
+     1>e:\study_series\leetcode_test\cpp_code\datawhale_algrithom\lesson_4\hash_map.cpp(86): warning C4154: deletion of an array expression; conversion to pointer supplied
+       Link:
+         C:\Love\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\study_series\leetcode_test\cpp_code\datawhale_algrithom\Debug\lesson_4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\study_series\leetcode_test\cpp_code\datawhale_algrithom\Debug\lesson_4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\study_series\leetcode_test\cpp_code\datawhale_algrithom\Debug\lesson_4.lib" /MACHINE:X86 Debug\hash_map.obj
+     1>hash_map.obj : error LNK2019: unresolved external symbol "public: __thiscall Node::Node(void)" (??0Node@@QAE@XZ) referenced in function "public: void __thiscall Hash::insert(int)" (?insert@Hash@@QAEXH@Z)
+     1>E:\study_series\leetcode_test\cpp_code\datawhale_algrithom\Debug\lesson_4.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "E:\study_series\leetcode_test\cpp_code\datawhale_algrithom\lesson_4\lesson_4.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.68
